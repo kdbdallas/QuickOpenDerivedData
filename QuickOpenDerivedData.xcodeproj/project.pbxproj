@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E315A97173DA9FB00050360 /* QuickOpenDerivedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E315A96173DA9FB00050360 /* QuickOpenDerivedData.m */; };
+		8E315A9A173DAF0000050360 /* QODDButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E315A99173DAF0000050360 /* QODDButtonView.m */; };
+		8E315A9D173DB01E00050360 /* QODDDerivedDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E315A9C173DB01E00050360 /* QODDDerivedDataHandler.m */; };
+		8EDB8E62173DB48100F87F7F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E315A86173DA85B00050360 /* AppKit.framework */; };
+		8EDB8E63173DB48400F87F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E315A88173DA85B00050360 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E315A80173DA85B00050360 /* QuickOpenDerivedData.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickOpenDerivedData.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E315A86173DA85B00050360 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E315A88173DA85B00050360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E315A8B173DA85B00050360 /* QuickOpenDerivedData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickOpenDerivedData-Info.plist"; sourceTree = "<group>"; };
+		8E315A95173DA9FB00050360 /* QuickOpenDerivedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickOpenDerivedData.h; sourceTree = "<group>"; };
+		8E315A96173DA9FB00050360 /* QuickOpenDerivedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickOpenDerivedData.m; sourceTree = "<group>"; };
+		8E315A98173DAF0000050360 /* QODDButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QODDButtonView.h; sourceTree = "<group>"; };
+		8E315A99173DAF0000050360 /* QODDButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QODDButtonView.m; sourceTree = "<group>"; };
+		8E315A9B173DB01E00050360 /* QODDDerivedDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QODDDerivedDataHandler.h; sourceTree = "<group>"; };
+		8E315A9C173DB01E00050360 /* QODDDerivedDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QODDDerivedDataHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E315A7D173DA85B00050360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB8E62173DB48100F87F7F /* AppKit.framework in Frameworks */,
+				8EDB8E63173DB48400F87F7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E315A77173DA85B00050360 = {
+			isa = PBXGroup;
+			children = (
+				8E315A89173DA85B00050360 /* QuickOpenDerivedData */,
+				8E315A82173DA85B00050360 /* Frameworks */,
+				8E315A81173DA85B00050360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E315A81173DA85B00050360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E315A80173DA85B00050360 /* QuickOpenDerivedData.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E315A82173DA85B00050360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E315A85173DA85B00050360 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E315A85173DA85B00050360 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E315A86173DA85B00050360 /* AppKit.framework */,
+				8E315A88173DA85B00050360 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E315A89173DA85B00050360 /* QuickOpenDerivedData */ = {
+			isa = PBXGroup;
+			children = (
+				8E315A8A173DA85B00050360 /* Supporting Files */,
+				8E315A95173DA9FB00050360 /* QuickOpenDerivedData.h */,
+				8E315A96173DA9FB00050360 /* QuickOpenDerivedData.m */,
+				8E315A98173DAF0000050360 /* QODDButtonView.h */,
+				8E315A99173DAF0000050360 /* QODDButtonView.m */,
+				8E315A9B173DB01E00050360 /* QODDDerivedDataHandler.h */,
+				8E315A9C173DB01E00050360 /* QODDDerivedDataHandler.m */,
+			);
+			path = QuickOpenDerivedData;
+			sourceTree = "<group>";
+		};
+		8E315A8A173DA85B00050360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E315A8B173DA85B00050360 /* QuickOpenDerivedData-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E315A7F173DA85B00050360 /* QuickOpenDerivedData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E315A92173DA85B00050360 /* Build configuration list for PBXNativeTarget "QuickOpenDerivedData" */;
+			buildPhases = (
+				8E315A7C173DA85B00050360 /* Sources */,
+				8E315A7D173DA85B00050360 /* Frameworks */,
+				8E315A7E173DA85B00050360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickOpenDerivedData;
+			productName = QuickOpenDerivedData;
+			productReference = 8E315A80173DA85B00050360 /* QuickOpenDerivedData.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E315A78173DA85B00050360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "HashBang Industries";
+			};
+			buildConfigurationList = 8E315A7B173DA85B00050360 /* Build configuration list for PBXProject "QuickOpenDerivedData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E315A77173DA85B00050360;
+			productRefGroup = 8E315A81173DA85B00050360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E315A7F173DA85B00050360 /* QuickOpenDerivedData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E315A7E173DA85B00050360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E315A7C173DA85B00050360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E315A97173DA9FB00050360 /* QuickOpenDerivedData.m in Sources */,
+				8E315A9A173DAF0000050360 /* QODDButtonView.m in Sources */,
+				8E315A9D173DB01E00050360 /* QODDDerivedDataHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E315A90173DA85B00050360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E315A91173DA85B00050360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E315A93173DA85B00050360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickOpenDerivedData/QuickOpenDerivedData-Prefix.pch";
+				INFOPLIST_FILE = "QuickOpenDerivedData/QuickOpenDerivedData-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		8E315A94173DA85B00050360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickOpenDerivedData/QuickOpenDerivedData-Prefix.pch";
+				INFOPLIST_FILE = "QuickOpenDerivedData/QuickOpenDerivedData-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E315A7B173DA85B00050360 /* Build configuration list for PBXProject "QuickOpenDerivedData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E315A90173DA85B00050360 /* Debug */,
+				8E315A91173DA85B00050360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E315A92173DA85B00050360 /* Build configuration list for PBXNativeTarget "QuickOpenDerivedData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E315A93173DA85B00050360 /* Debug */,
+				8E315A94173DA85B00050360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E315A78173DA85B00050360 /* Project object */;
+}
